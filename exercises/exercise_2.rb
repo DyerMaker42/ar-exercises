@@ -10,4 +10,5 @@ puts "----------"
 # pp @store1
 
 @store2 = Store.find_by(id:2)
-@store3 = Store.find_by(id:3)
+
+@store1.update(annual_revenue:8675309)
